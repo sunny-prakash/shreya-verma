@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Sparkles, Award, Users, Clock, Heart } from 'lucide-react';
 
 export default function About() {

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Sparkles, Star, Heart, Phone, Mail, Instagram } from 'lucide-react';
 
 export default function Home() {

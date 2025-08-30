@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Sparkles, Crown, Star, Palette, Camera, Heart, Clock, CheckCircle } from 'lucide-react';
 
 export default function Services() {
