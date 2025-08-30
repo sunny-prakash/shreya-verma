@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, Star, Heart, Phone, Mail, Instagram } from 'lucide-react';
 
@@ -48,10 +47,12 @@ export default function Home() {
             </div>
             <div className="relative">
               <div className="aspect-square rounded-full bg-gradient-to-br from-rose-200 to-purple-200 p-8">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional makeup artist at work"
                   className="w-full h-full object-cover rounded-full shadow-2xl"
+                  width={400}
+                  height={400}
                 />
               </div>
               <div className="absolute -top-4 -right-4 bg-white p-4 rounded-full shadow-lg">
@@ -75,10 +76,12 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-2xl mb-6">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Bridal makeup"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={256}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">
@@ -89,10 +92,12 @@ export default function Home() {
             </div>
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-2xl mb-6">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373725/pexels-photo-3373725.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Glam event makeup"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={256}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">
@@ -103,10 +108,12 @@ export default function Home() {
             </div>
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-2xl mb-6">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373714/pexels-photo-3373714.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Natural makeup"
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={256}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">

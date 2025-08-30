@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, Crown, Star, Palette, Camera, Heart, Clock, CheckCircle } from 'lucide-react';
 
@@ -40,10 +39,12 @@ export default function Services() {
             {/* Bridal Makeup */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
               <div className="relative h-64">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Bridal makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={256}
                 />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
                   <div className="flex items-center space-x-2">
@@ -90,10 +91,12 @@ export default function Services() {
             {/* Glam Events */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
               <div className="relative h-64">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373725/pexels-photo-3373725.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Glam event makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={256}
                 />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full">
                   <div className="flex items-center space-x-2">
@@ -143,10 +146,12 @@ export default function Services() {
             {/* Natural Makeup */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373714/pexels-photo-3373714.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Natural makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">
@@ -167,10 +172,12 @@ export default function Services() {
             {/* Party Makeup */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Party makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">
@@ -191,10 +198,12 @@ export default function Services() {
             {/* Photoshoot Makeup */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373748/pexels-photo-3373748.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Photoshoot makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">
@@ -215,10 +224,12 @@ export default function Services() {
             {/* Engagement Makeup */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373731/pexels-photo-3373731.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Engagement makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">
@@ -239,10 +250,12 @@ export default function Services() {
             {/* Corporate Events */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373742/pexels-photo-3373742.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Corporate event makeup service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">
@@ -263,10 +276,12 @@ export default function Services() {
             {/* Makeup Lessons */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373750/pexels-photo-3373750.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Makeup lessons service"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
                 />
               </div>
               <div className="p-6">

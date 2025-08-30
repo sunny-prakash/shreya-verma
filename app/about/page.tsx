@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Sparkles, Award, Users, Clock, Heart } from 'lucide-react';
 
@@ -61,10 +60,12 @@ export default function About() {
 
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/3373745/pexels-photo-3373745.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Shreya Verma - Professional Makeup Artist"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={500}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-lg">
